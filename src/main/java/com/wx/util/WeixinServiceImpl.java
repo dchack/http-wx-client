@@ -40,7 +40,7 @@ import com.alibaba.fastjson.JSONObject;
 public class WeixinServiceImpl {
 	private final static Log log = LogFactory.getLog(WeixinServiceImpl.class);
 	public final static String HOST = "http://mp.weixin.qq.com";
-	public final static String LOGIN_URL = "http://mp.weixin.qq.com/cgi-bin/login?lang=zh_CN";
+	public final static String LOGIN_URL = "https://mp.weixin.qq.com/cgi-bin/login?lang=zh_CN";
 	public final static String INDEX_URL = "http://mp.weixin.qq.com/cgi-bin/indexpage?t=wxm-index&lang=zh_CN";
 	public final static String SENDMSG_URL = "https://mp.weixin.qq.com/cgi-bin/singlesend";
 	public final static String FANS_URL = "http://mp.weixin.qq.com/cgi-bin/contactmanagepage?t=wxm-friend&lang=zh_CN&pagesize=10&pageidx=0&type=0&groupid=0";
